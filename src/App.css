@@ -13,15 +13,29 @@
   }
 }
 
+.Stored-Image {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* size: 200cap; */
+  margin: 10px;
+  position: relative;
+  height: 50vh;
+  object-fit: contain;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  height: 30hv;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
+  margin-top: 0.4px;
 }
 
 .App-link {
