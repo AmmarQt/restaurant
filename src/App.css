@@ -13,6 +13,21 @@
   }
 }
 
+.image-style {
+  width: 100%;
+}
+
+.dev-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+.dev-item {
+  width: 20%;
+}
+
 .Stored-Image {
   width: 100vw;
   display: flex;
